@@ -1,0 +1,134 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signBox{
+    display: flex;
+    flex-shrink: 1;
+   width: 50vw;
+   height: 90vh;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.leftBox{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 50vw;
+ height: 100%;   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rightBox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 50vw;
+    height: 100%;
+}
+
+img{
+    width: 140px;
+    height: 160px;
+}
+
+.fullUser , .inputPass , .inputEmail ,.inputConfirm{
+
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    border-bottom: 1px solid  rgb(207, 207, 207);
+    outline: none;
+}
+input:focus{
+    border-bottom: 1px solid  rgb(153, 153, 153);
+   
+}
+
+
+label{
+    color: rgb(165, 165, 165);
+}
+
+#signUp{
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: lightgray;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 12em;
+    height: 3em;
+    color: white;
+    font-size: 12px;
+}
+#signUp:hover{
+    background-color: #b3b3b3;
+}
+#signIn{
+    margin: 10px;
+    font-size: 16px;
+    width: 5rem;
+    color: white;
+    border: 1.5px solid white;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+#signIn:hover{
+    background-color: white;
+    color: lightgray;
+}
+.textAlready{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(165, 165, 165);
+}
+
+
+input:invalid{
+    border-bottom: 1px solid rgb(173, 108, 108);
+}
+form > div{
+    font-weight: 600 ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+a:hover{
+    color: rgb(105, 105, 105);
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+#google , #facebook{
+    width: 2em;
+    height: 2em;
+}
+.cody{
+
+    position: absolute;
+    bottom: 0;
+}
+#github{
+    width: 1em;
+    height: 1em;
+}
