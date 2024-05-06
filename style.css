@@ -1,4 +1,5 @@
 body{
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -6,6 +7,7 @@ body{
     height: 100vh;
 }
 .signBox{
+    border-radius: 10px;
     display: flex;
     flex-shrink: 1;
    width: 50vw;
@@ -28,7 +30,9 @@ form{
     gap: 20px;
 }
 .rightBox{
-    
+    background-image: url(images/tobias-tullius-0SMBHXgCibM-unsplash\(1\).jpg);
+    background-size: cover;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,12 +87,12 @@ label{
     width: 5rem;
     color: white;
     border: 1.5px solid white;
-    background-color: lightgray;
+    background-color: transparent;
     border-radius: 10px;
 }
 #signIn:hover{
     background-color: white;
-    color: lightgray;
+    color: black;
 }
 .textAlready{
     margin-top: 10px;
@@ -131,4 +135,20 @@ a:hover{
 #github{
     width: 1em;
     height: 1em;
+}
+.backgroundLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: black;
+    width: 50%;
+    height: 28%;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+.odinLogo{
+   display: flex;
+   flex-shrink: 1;
+    color: white;
+    opacity: 1;
 }
